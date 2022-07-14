@@ -21,6 +21,7 @@ namespace RinhaDePokemon
 
         private void Rinha_Load(object sender, EventArgs e)
         {
+            
             labelName1.Text=listPokemon[0].GetName();
             labelCategory1.Text = listPokemon[0].GetCategory();
             labelWeakness1.Text = listPokemon[0].GetWeakness();
@@ -31,6 +32,118 @@ namespace RinhaDePokemon
             labelWeakness2.Text = listPokemon[1].GetWeakness();
             labelWeight2.Text = Convert.ToString(listPokemon[1].GetWeight());
             labelHeight2.Text = Convert.ToString(listPokemon[1].GetHeight());
+
+            //Carregar Imagens
+            //Bulbasaur
+            if (listPokemon[0].GetName() == "Bulbasaur")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Bulbasaur.png");
+            }
+            else if (listPokemon[1].GetName() == "Bulbasaur")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Bulbasaur.png");
+            }
+            if (listPokemon[0].GetName() == "Charmander")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Charmander.png");
+            }
+            else if (listPokemon[1].GetName() == "Charmander")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Charmander.png");
+            }
+            if (listPokemon[0].GetName() == "Squirtle")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Squirtle.png");
+            }
+            else if (listPokemon[1].GetName() == "Squirtle")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Squirtle.png");
+            }
+            if (listPokemon[0].GetName() == "Caterpie")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Caterpie.png");
+            }
+            else if (listPokemon[1].GetName() == "Caterpie")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Caterpie.png");
+            }
+            if (listPokemon[0].GetName() == "Pidgey")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Pidgey.png");
+            }
+            else if (listPokemon[1].GetName() == "Pidgey")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Pidgey.png");
+            }
+            if (listPokemon[0].GetName() == "Rattata")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Rattata.png");
+            }
+            else if (listPokemon[1].GetName() == "Rattata")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Rattata.png");
+            }
+            if (listPokemon[0].GetName() == "Ekans")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Ekans.png");
+            }
+            else if (listPokemon[1].GetName() == "Ekans")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Ekans.png");
+            }
+            if (listPokemon[0].GetName() == "Pikachu")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Pikachu.png");
+            }
+            else if (listPokemon[1].GetName() == "Pikachu")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Pikachu.png");
+            }
+            if (listPokemon[0].GetName() == "Sandshrew")
+            {
+                pictureBox1.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Sandshrew.png");
+            }
+            else if (listPokemon[1].GetName() == "Sandshrew")
+            {
+                pictureBox2.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
+                                                       (System.Environment.SpecialFolder.MyPictures)
+                                                        + @"\Sandshrew.png");
+            }
+
         }
 
 
@@ -293,8 +406,6 @@ namespace RinhaDePokemon
                     MessageBox.Show($"Houve empate");
                 }
             }
-
-
             /*Mato - Fogo
               Fogo - Agua
               Agua - Mato

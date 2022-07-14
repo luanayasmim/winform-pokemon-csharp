@@ -12,7 +12,7 @@ namespace RinhaDePokemon.Properties
         //Atributos
         private string name, category, weakness;
         private double height, weight;
-        
+        //private Image image = Image.FromFile("");
 
         //Métodos Especiais
         //Construtor
@@ -21,6 +21,7 @@ namespace RinhaDePokemon.Properties
                        string p_weakness,
                        double p_height,
                        double p_weight
+                       /*Image p_image*/
                       )
         {
             SetName(p_name);
@@ -28,6 +29,7 @@ namespace RinhaDePokemon.Properties
             SetWeakness(p_weakness);
             SetHeight(p_height);
             SetWeight(p_weight);
+            //SetImage(p_image);
         }
 
         //Name
@@ -45,6 +47,9 @@ namespace RinhaDePokemon.Properties
         //Weigth
         public double GetWeight() { return this.weight; }
         public void SetWeight(double p_weight) { this.weight = p_weight; }
+        //Image
+        //public Image GetImage() { return this.image; }
+        //public void SetImage(Image p_image) { this.image = p_image; }
 
     }
 }

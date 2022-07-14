@@ -50,14 +50,14 @@ namespace RinhaDePokemon
 
         private void buttonBulbasaur_Click(object sender, EventArgs e)
         {
-            Pokemon bulbasaur = new Pokemon("Bulbasaur", "Mato", "Fogo", 0.7, 6.9);
+            Pokemon bulbasaur = new Pokemon("Bulbasaur", "Mato", "Fogo", 0.7, 6.9 /*"\Bulbasaur.png"*/) ;
             //Pokemon pokemon = SearchPokemon(bulbasaur);
             label_setName.Text = bulbasaur.GetName();
             label_setHeight.Text =Convert.ToString(bulbasaur.GetHeight());
             label_setWeight.Text = Convert.ToString(bulbasaur.GetWeight());
             label_setCategory.Text = bulbasaur.GetCategory();
             label_setWeakness.Text = bulbasaur.GetWeakness();
-
+            //pictureBox_setPokemon.BackgroundImage = bulbasaur.GetImage();
             pictureBox_setPokemon.BackgroundImage= Image.FromFile(System.Environment.GetFolderPath
                                                        (System.Environment.SpecialFolder.MyPictures)
                                                         + @"\Bulbasaur.png");
