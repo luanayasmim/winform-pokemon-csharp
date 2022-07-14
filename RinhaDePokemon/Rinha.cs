@@ -154,8 +154,18 @@ namespace RinhaDePokemon
             var categoria1 = listPokemon[0].GetCategory();
             var categoria2 = listPokemon[1].GetCategory();
 
+            //Verificação do tipo Normal
+            if (categoria1 == "Normal")
+            {
+                MessageBox.Show($"O {listPokemon[1].GetName()} é o vencedor");
+            }
+            else if (categoria2 == "Normal")
+            {
+                MessageBox.Show($"O {listPokemon[0].GetName()} é o vencedor");
+            }
+
             //Verificação do tipo Mato
-            if (categoria1 == "Mato")
+            else if (categoria1 == "Mato")
             {
                 if(categoria2 == "Fogo")//Fraqueza
                 {
@@ -305,15 +315,7 @@ namespace RinhaDePokemon
                 }
             }
 
-            //Verificação do tipo Normal
-            else if (categoria1 == "Normal")
-            {
-                MessageBox.Show($"O {listPokemon[1].GetName()} é o vencedor");
-            }
-            else if (categoria2 == "Normal")
-            {
-                MessageBox.Show($"O {listPokemon[0].GetName()} é o vencedor");
-            }
+            
 
             //Verificação do tipo Venenoso
             else if (categoria1 == "Venenoso")
