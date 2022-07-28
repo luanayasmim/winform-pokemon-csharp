@@ -52,11 +52,11 @@ namespace RinhaDePokemon
         {
             Pokemon bulbasaur = new Pokemon("Bulbasaur", "Mato", "Fogo", 0.7, 6.9 /*"\Bulbasaur.png"*/) ;
             //Pokemon pokemon = SearchPokemon(bulbasaur);
-            label_setName.Text = bulbasaur.GetName();
-            label_setHeight.Text =Convert.ToString(bulbasaur.GetHeight());
-            label_setWeight.Text = Convert.ToString(bulbasaur.GetWeight());
-            label_setCategory.Text = bulbasaur.GetCategory();
-            label_setWeakness.Text = bulbasaur.GetWeakness();
+            label_setName.Text = bulbasaur.Name;
+            label_setHeight.Text =Convert.ToString(bulbasaur.Height);
+            label_setWeight.Text = Convert.ToString(bulbasaur.Weight);
+            label_setCategory.Text = bulbasaur.Category;
+            label_setWeakness.Text = bulbasaur.Weakness;
             //pictureBox_setPokemon.BackgroundImage = bulbasaur.GetImage();
             pictureBox_setPokemon.BackgroundImage= Image.FromFile(System.Environment.GetFolderPath
                                                        (System.Environment.SpecialFolder.MyPictures)
@@ -68,11 +68,11 @@ namespace RinhaDePokemon
         {
             Pokemon charmander = new Pokemon("Charmander", "Fogo", "Água", 0.6, 8.5);
             //Pokemon pokemon = SearchPokemon(charmander);
-            label_setName.Text = charmander.GetName();
-            label_setHeight.Text = Convert.ToString(charmander.GetHeight());
-            label_setWeight.Text = Convert.ToString(charmander.GetWeight());
-            label_setCategory.Text = charmander.GetCategory();
-            label_setWeakness.Text = charmander.GetWeakness();
+            label_setName.Text = charmander.Name;
+            label_setHeight.Text = Convert.ToString(charmander.Height);
+            label_setWeight.Text = Convert.ToString(charmander.Weight);
+            label_setCategory.Text = charmander.Category;
+            label_setWeakness.Text = charmander.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                        (System.Environment.SpecialFolder.MyPictures)
@@ -83,11 +83,11 @@ namespace RinhaDePokemon
         {
             Pokemon squirtle = new Pokemon("Squirtle", "Água", "Mato", 0.5, 9.0);
             
-            label_setName.Text = squirtle.GetName();
-            label_setHeight.Text = Convert.ToString(squirtle.GetHeight());
-            label_setWeight.Text = Convert.ToString(squirtle.GetWeight());
-            label_setCategory.Text = squirtle.GetCategory();
-            label_setWeakness.Text = squirtle.GetWeakness();
+            label_setName.Text = squirtle.Name;
+            label_setHeight.Text = Convert.ToString(squirtle.Height);
+            label_setWeight.Text = Convert.ToString(squirtle.Weight);
+            label_setCategory.Text = squirtle.Category;
+            label_setWeakness.Text = squirtle.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                        (System.Environment.SpecialFolder.MyPictures)
@@ -98,11 +98,11 @@ namespace RinhaDePokemon
         {
             Pokemon cartepie = new Pokemon("Caterpie", "Inseto", "Fogo", 0.3, 2.9);
             //Pokemon pokemon = SearchPokemon(cartepie);
-            label_setName.Text = cartepie.GetName();
-            label_setHeight.Text = Convert.ToString(cartepie.GetHeight());
-            label_setWeight.Text = Convert.ToString(cartepie.GetWeight());
-            label_setCategory.Text = cartepie.GetCategory();
-            label_setWeakness.Text = cartepie.GetWeakness();
+            label_setName.Text = cartepie.Name;
+            label_setHeight.Text = Convert.ToString(cartepie.Height);
+            label_setWeight.Text = Convert.ToString(cartepie.Weight);
+            label_setCategory.Text = cartepie.Category;
+            label_setWeakness.Text = cartepie.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                         (System.Environment.SpecialFolder.MyPictures)
@@ -113,11 +113,11 @@ namespace RinhaDePokemon
         {
             Pokemon pidgey = new Pokemon("Pidgey", "Voador", "Elétrico", 0.3, 1.8);
             //Pokemon pokemon = SearchPokemon(pidgey);
-            label_setName.Text = pidgey.GetName();
-            label_setHeight.Text = Convert.ToString(pidgey.GetHeight());
-            label_setWeight.Text = Convert.ToString(pidgey.GetWeight());
-            label_setCategory.Text = pidgey.GetCategory();
-            label_setWeakness.Text = pidgey.GetWeakness();
+            label_setName.Text = pidgey.Name;
+            label_setHeight.Text = Convert.ToString(pidgey.Height);
+            label_setWeight.Text = Convert.ToString(pidgey.Weight);
+            label_setCategory.Text = pidgey.Category;
+            label_setWeakness.Text = pidgey.Weakness;
 
             pictureBox_setPokemon.BackgroundImage =Image.FromFile(System.Environment.GetFolderPath
                                                       (System.Environment.SpecialFolder.MyPictures)
@@ -128,11 +128,11 @@ namespace RinhaDePokemon
         {
             Pokemon rattata = new Pokemon("Rattata", "Normal", "Lutar", 0.3, 3.5);
             //Pokemon pokemon = SearchPokemon(rattata);
-            label_setName.Text = rattata.GetName();
-            label_setHeight.Text = Convert.ToString(rattata.GetHeight());
-            label_setWeight.Text = Convert.ToString(rattata.GetWeight());
-            label_setCategory.Text = rattata.GetCategory();
-            label_setWeakness.Text = rattata.GetWeakness();
+            label_setName.Text = rattata.Name;
+            label_setHeight.Text = Convert.ToString(rattata.Height);
+            label_setWeight.Text = Convert.ToString(rattata.Weight);
+            label_setCategory.Text = rattata.Category;
+            label_setWeakness.Text = rattata.Weakness;
 
             pictureBox_setPokemon.BackgroundImage =Image.FromFile(System.Environment.GetFolderPath
                                                       (System.Environment.SpecialFolder.MyPictures)
@@ -143,11 +143,11 @@ namespace RinhaDePokemon
         {
             Pokemon ekans = new Pokemon("Ekans", "Venenoso", "Terra", 2, 6.9);
             //Pokemon pokemon = SearchPokemon(ekans);
-            label_setName.Text = ekans.GetName();
-            label_setHeight.Text = Convert.ToString(ekans.GetHeight());
-            label_setWeight.Text = Convert.ToString(ekans.GetWeight());
-            label_setCategory.Text = ekans.GetCategory();
-            label_setWeakness.Text = ekans.GetWeakness();
+            label_setName.Text = ekans.Name;
+            label_setHeight.Text = Convert.ToString(ekans.Height);
+            label_setWeight.Text = Convert.ToString(ekans.Weight);
+            label_setCategory.Text = ekans.Category;
+            label_setWeakness.Text = ekans.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                         (System.Environment.SpecialFolder.MyPictures)
@@ -158,11 +158,11 @@ namespace RinhaDePokemon
         {
             Pokemon pikachu = new Pokemon("Pikachu", "Elétrico", "Terra", 0.4, 6.0);
             //Pokemon pokemon = SearchPokemon(pikachu);
-            label_setName.Text = pikachu.GetName();
-            label_setHeight.Text = Convert.ToString(pikachu.GetHeight());
-            label_setWeight.Text = Convert.ToString(pikachu.GetWeight());
-            label_setCategory.Text = pikachu.GetCategory();
-            label_setWeakness.Text = pikachu.GetWeakness();
+            label_setName.Text = pikachu.Name;
+            label_setHeight.Text = Convert.ToString(pikachu.Height);
+            label_setWeight.Text = Convert.ToString(pikachu.Weight);
+            label_setCategory.Text = pikachu.Category;
+            label_setWeakness.Text = pikachu.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                         (System.Environment.SpecialFolder.MyPictures)
@@ -173,11 +173,11 @@ namespace RinhaDePokemon
         {
             Pokemon sandshrew = new Pokemon("Sandshrew", "Terra", "Água", 0.6, 12.0);
             //Pokemon pokemon = SearchPokemon(sandshrew);
-            label_setName.Text = sandshrew.GetName();
-            label_setHeight.Text = Convert.ToString(sandshrew.GetHeight());
-            label_setWeight.Text = Convert.ToString(sandshrew.GetWeight());
-            label_setCategory.Text = sandshrew.GetCategory();
-            label_setWeakness.Text = sandshrew.GetWeakness();
+            label_setName.Text = sandshrew.Name;
+            label_setHeight.Text = Convert.ToString(sandshrew.Height);
+            label_setWeight.Text = Convert.ToString(sandshrew.Weight);
+            label_setCategory.Text = sandshrew.Category;
+            label_setWeakness.Text = sandshrew.Weakness;
 
             pictureBox_setPokemon.BackgroundImage = Image.FromFile(System.Environment.GetFolderPath
                                                         (System.Environment.SpecialFolder.MyPictures)

@@ -69,14 +69,16 @@ namespace RinhaDePokemon
             // 
             this.buttonBulbasaur.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonBulbasaur.BackgroundImage")));
             this.buttonBulbasaur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonBulbasaur.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonBulbasaur.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonBulbasaur.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonBulbasaur.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonBulbasaur.Location = new System.Drawing.Point(54, 106);
+            this.buttonBulbasaur.Location = new System.Drawing.Point(39, 99);
             this.buttonBulbasaur.Name = "buttonBulbasaur";
-            this.buttonBulbasaur.Size = new System.Drawing.Size(99, 90);
+            this.buttonBulbasaur.Size = new System.Drawing.Size(119, 123);
             this.buttonBulbasaur.TabIndex = 1;
             this.buttonBulbasaur.Text = "Bulbasaur";
             this.buttonBulbasaur.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonBulbasaur.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.buttonBulbasaur.UseVisualStyleBackColor = true;
             this.buttonBulbasaur.Click += new System.EventHandler(this.buttonBulbasaur_Click);
             // 
@@ -84,14 +86,17 @@ namespace RinhaDePokemon
             // 
             this.buttonCharmander.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCharmander.BackgroundImage")));
             this.buttonCharmander.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCharmander.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonCharmander.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCharmander.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonCharmander.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonCharmander.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonCharmander.Location = new System.Drawing.Point(182, 109);
+            this.buttonCharmander.Location = new System.Drawing.Point(167, 102);
             this.buttonCharmander.Name = "buttonCharmander";
-            this.buttonCharmander.Size = new System.Drawing.Size(99, 87);
+            this.buttonCharmander.Size = new System.Drawing.Size(119, 120);
             this.buttonCharmander.TabIndex = 2;
             this.buttonCharmander.Text = "Charmander";
             this.buttonCharmander.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonCharmander.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.buttonCharmander.UseVisualStyleBackColor = true;
             this.buttonCharmander.Click += new System.EventHandler(this.buttonCharmander_Click);
             // 
@@ -99,11 +104,12 @@ namespace RinhaDePokemon
             // 
             this.buttonSquirtle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSquirtle.BackgroundImage")));
             this.buttonSquirtle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonSquirtle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSquirtle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSquirtle.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSquirtle.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonSquirtle.Location = new System.Drawing.Point(319, 109);
+            this.buttonSquirtle.Location = new System.Drawing.Point(304, 102);
             this.buttonSquirtle.Name = "buttonSquirtle";
-            this.buttonSquirtle.Size = new System.Drawing.Size(99, 87);
+            this.buttonSquirtle.Size = new System.Drawing.Size(119, 120);
             this.buttonSquirtle.TabIndex = 3;
             this.buttonSquirtle.Tag = "";
             this.buttonSquirtle.Text = "Squirtle";
@@ -115,11 +121,12 @@ namespace RinhaDePokemon
             // 
             this.buttonCaterpie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonCaterpie.BackgroundImage")));
             this.buttonCaterpie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonCaterpie.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonCaterpie.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonCaterpie.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonCaterpie.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonCaterpie.Location = new System.Drawing.Point(54, 220);
+            this.buttonCaterpie.Location = new System.Drawing.Point(39, 234);
             this.buttonCaterpie.Name = "buttonCaterpie";
-            this.buttonCaterpie.Size = new System.Drawing.Size(99, 87);
+            this.buttonCaterpie.Size = new System.Drawing.Size(119, 120);
             this.buttonCaterpie.TabIndex = 4;
             this.buttonCaterpie.Text = "Caterpie";
             this.buttonCaterpie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -130,11 +137,12 @@ namespace RinhaDePokemon
             // 
             this.buttonPidgey.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonPidgey.BackgroundImage")));
             this.buttonPidgey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonPidgey.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonPidgey.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPidgey.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonPidgey.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonPidgey.Location = new System.Drawing.Point(182, 220);
+            this.buttonPidgey.Location = new System.Drawing.Point(167, 234);
             this.buttonPidgey.Name = "buttonPidgey";
-            this.buttonPidgey.Size = new System.Drawing.Size(99, 87);
+            this.buttonPidgey.Size = new System.Drawing.Size(119, 120);
             this.buttonPidgey.TabIndex = 5;
             this.buttonPidgey.Text = "Pidgey";
             this.buttonPidgey.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -145,11 +153,12 @@ namespace RinhaDePokemon
             // 
             this.buttonRattata.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonRattata.BackgroundImage")));
             this.buttonRattata.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonRattata.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonRattata.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonRattata.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonRattata.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonRattata.Location = new System.Drawing.Point(319, 220);
+            this.buttonRattata.Location = new System.Drawing.Point(304, 234);
             this.buttonRattata.Name = "buttonRattata";
-            this.buttonRattata.Size = new System.Drawing.Size(99, 87);
+            this.buttonRattata.Size = new System.Drawing.Size(119, 120);
             this.buttonRattata.TabIndex = 6;
             this.buttonRattata.Text = "Rattata";
             this.buttonRattata.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -160,11 +169,12 @@ namespace RinhaDePokemon
             // 
             this.buttonEkans.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonEkans.BackgroundImage")));
             this.buttonEkans.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonEkans.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonEkans.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonEkans.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonEkans.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonEkans.Location = new System.Drawing.Point(54, 338);
+            this.buttonEkans.Location = new System.Drawing.Point(39, 367);
             this.buttonEkans.Name = "buttonEkans";
-            this.buttonEkans.Size = new System.Drawing.Size(99, 87);
+            this.buttonEkans.Size = new System.Drawing.Size(119, 120);
             this.buttonEkans.TabIndex = 7;
             this.buttonEkans.Text = "Ekans";
             this.buttonEkans.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -175,11 +185,12 @@ namespace RinhaDePokemon
             // 
             this.buttonPikachu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonPikachu.BackgroundImage")));
             this.buttonPikachu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonPikachu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonPikachu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonPikachu.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonPikachu.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonPikachu.Location = new System.Drawing.Point(182, 338);
+            this.buttonPikachu.Location = new System.Drawing.Point(167, 367);
             this.buttonPikachu.Name = "buttonPikachu";
-            this.buttonPikachu.Size = new System.Drawing.Size(99, 87);
+            this.buttonPikachu.Size = new System.Drawing.Size(119, 120);
             this.buttonPikachu.TabIndex = 8;
             this.buttonPikachu.Text = "Pikachu";
             this.buttonPikachu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -190,11 +201,12 @@ namespace RinhaDePokemon
             // 
             this.buttonSandshrew.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSandshrew.BackgroundImage")));
             this.buttonSandshrew.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonSandshrew.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonSandshrew.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSandshrew.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonSandshrew.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.buttonSandshrew.Location = new System.Drawing.Point(319, 338);
+            this.buttonSandshrew.Location = new System.Drawing.Point(304, 367);
             this.buttonSandshrew.Name = "buttonSandshrew";
-            this.buttonSandshrew.Size = new System.Drawing.Size(99, 87);
+            this.buttonSandshrew.Size = new System.Drawing.Size(119, 120);
             this.buttonSandshrew.TabIndex = 9;
             this.buttonSandshrew.Text = "Sandshrew";
             this.buttonSandshrew.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -203,6 +215,7 @@ namespace RinhaDePokemon
             // 
             // button_choicePokemon
             // 
+            this.button_choicePokemon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_choicePokemon.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button_choicePokemon.Location = new System.Drawing.Point(586, 447);
             this.button_choicePokemon.Name = "button_choicePokemon";
@@ -309,6 +322,7 @@ namespace RinhaDePokemon
             // 
             // buttonStart
             // 
+            this.buttonStart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonStart.Location = new System.Drawing.Point(687, 491);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(75, 23);
@@ -344,6 +358,7 @@ namespace RinhaDePokemon
             this.Controls.Add(this.buttonCharmander);
             this.Controls.Add(this.buttonBulbasaur);
             this.Controls.Add(this.title1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "FormMain";
             this.Text = "Rinha de Pokémon";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_setPokemon)).EndInit();

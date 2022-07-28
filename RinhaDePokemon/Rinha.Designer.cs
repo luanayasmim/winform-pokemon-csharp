@@ -72,7 +72,7 @@ namespace RinhaDePokemon
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(327, 352);
+            this.panel1.Size = new System.Drawing.Size(327, 371);
             this.panel1.TabIndex = 0;
             // 
             // labelName1
@@ -88,7 +88,7 @@ namespace RinhaDePokemon
             // labelWeakness1
             // 
             this.labelWeakness1.AutoSize = true;
-            this.labelWeakness1.Location = new System.Drawing.Point(228, 304);
+            this.labelWeakness1.Location = new System.Drawing.Point(229, 328);
             this.labelWeakness1.Name = "labelWeakness1";
             this.labelWeakness1.Size = new System.Drawing.Size(10, 15);
             this.labelWeakness1.TabIndex = 34;
@@ -97,7 +97,7 @@ namespace RinhaDePokemon
             // labelCategory1
             // 
             this.labelCategory1.AutoSize = true;
-            this.labelCategory1.Location = new System.Drawing.Point(223, 257);
+            this.labelCategory1.Location = new System.Drawing.Point(208, 281);
             this.labelCategory1.Name = "labelCategory1";
             this.labelCategory1.Size = new System.Drawing.Size(10, 15);
             this.labelCategory1.TabIndex = 33;
@@ -106,7 +106,7 @@ namespace RinhaDePokemon
             // labelWeight1
             // 
             this.labelWeight1.AutoSize = true;
-            this.labelWeight1.Location = new System.Drawing.Point(65, 304);
+            this.labelWeight1.Location = new System.Drawing.Point(66, 328);
             this.labelWeight1.Name = "labelWeight1";
             this.labelWeight1.Size = new System.Drawing.Size(10, 15);
             this.labelWeight1.TabIndex = 32;
@@ -115,7 +115,7 @@ namespace RinhaDePokemon
             // labelHeight1
             // 
             this.labelHeight1.AutoSize = true;
-            this.labelHeight1.Location = new System.Drawing.Point(65, 257);
+            this.labelHeight1.Location = new System.Drawing.Point(66, 281);
             this.labelHeight1.Name = "labelHeight1";
             this.labelHeight1.Size = new System.Drawing.Size(10, 15);
             this.labelHeight1.TabIndex = 31;
@@ -125,7 +125,7 @@ namespace RinhaDePokemon
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(195, 289);
+            this.label4.Location = new System.Drawing.Point(196, 313);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 15);
             this.label4.TabIndex = 30;
@@ -135,7 +135,7 @@ namespace RinhaDePokemon
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(208, 242);
+            this.label3.Location = new System.Drawing.Point(193, 266);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 15);
             this.label3.TabIndex = 29;
@@ -145,7 +145,7 @@ namespace RinhaDePokemon
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(54, 289);
+            this.label2.Location = new System.Drawing.Point(55, 313);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 15);
             this.label2.TabIndex = 28;
@@ -155,7 +155,7 @@ namespace RinhaDePokemon
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(54, 242);
+            this.label1.Location = new System.Drawing.Point(55, 266);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 15);
             this.label1.TabIndex = 27;
@@ -164,9 +164,9 @@ namespace RinhaDePokemon
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(34, 60);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(251, 164);
+            this.pictureBox1.Size = new System.Drawing.Size(251, 176);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -184,7 +184,7 @@ namespace RinhaDePokemon
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(392, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(336, 353);
+            this.panel2.Size = new System.Drawing.Size(336, 372);
             this.panel2.TabIndex = 1;
             // 
             // labelName2
@@ -200,7 +200,7 @@ namespace RinhaDePokemon
             // labelWeakness2
             // 
             this.labelWeakness2.AutoSize = true;
-            this.labelWeakness2.Location = new System.Drawing.Point(238, 305);
+            this.labelWeakness2.Location = new System.Drawing.Point(239, 329);
             this.labelWeakness2.Name = "labelWeakness2";
             this.labelWeakness2.Size = new System.Drawing.Size(10, 15);
             this.labelWeakness2.TabIndex = 34;
@@ -209,7 +209,7 @@ namespace RinhaDePokemon
             // labelCategory2
             // 
             this.labelCategory2.AutoSize = true;
-            this.labelCategory2.Location = new System.Drawing.Point(233, 258);
+            this.labelCategory2.Location = new System.Drawing.Point(218, 282);
             this.labelCategory2.Name = "labelCategory2";
             this.labelCategory2.Size = new System.Drawing.Size(10, 15);
             this.labelCategory2.TabIndex = 33;
@@ -218,7 +218,7 @@ namespace RinhaDePokemon
             // labelWeight2
             // 
             this.labelWeight2.AutoSize = true;
-            this.labelWeight2.Location = new System.Drawing.Point(75, 305);
+            this.labelWeight2.Location = new System.Drawing.Point(76, 329);
             this.labelWeight2.Name = "labelWeight2";
             this.labelWeight2.Size = new System.Drawing.Size(10, 15);
             this.labelWeight2.TabIndex = 32;
@@ -227,7 +227,7 @@ namespace RinhaDePokemon
             // labelHeight2
             // 
             this.labelHeight2.AutoSize = true;
-            this.labelHeight2.Location = new System.Drawing.Point(75, 258);
+            this.labelHeight2.Location = new System.Drawing.Point(76, 282);
             this.labelHeight2.Name = "labelHeight2";
             this.labelHeight2.Size = new System.Drawing.Size(10, 15);
             this.labelHeight2.TabIndex = 31;
@@ -237,7 +237,7 @@ namespace RinhaDePokemon
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(205, 290);
+            this.label9.Location = new System.Drawing.Point(206, 314);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 15);
             this.label9.TabIndex = 30;
@@ -247,7 +247,7 @@ namespace RinhaDePokemon
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(218, 243);
+            this.label7.Location = new System.Drawing.Point(203, 267);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 15);
             this.label7.TabIndex = 29;
@@ -257,7 +257,7 @@ namespace RinhaDePokemon
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(64, 290);
+            this.label6.Location = new System.Drawing.Point(65, 314);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(33, 15);
             this.label6.TabIndex = 28;
@@ -267,7 +267,7 @@ namespace RinhaDePokemon
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(64, 243);
+            this.label5.Location = new System.Drawing.Point(65, 267);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 15);
             this.label5.TabIndex = 27;
@@ -276,14 +276,16 @@ namespace RinhaDePokemon
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(42, 43);
+            this.pictureBox2.Location = new System.Drawing.Point(41, 61);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(251, 164);
+            this.pictureBox2.Size = new System.Drawing.Size(251, 176);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // buttonResult
             // 
+            this.buttonResult.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonResult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonResult.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.buttonResult.Location = new System.Drawing.Point(288, 390);
             this.buttonResult.Name = "buttonResult";
